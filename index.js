@@ -9,14 +9,14 @@ const LOWER = 13.7;
 const UPPER = 13.9;
 
 
-const currencies = ["NGN", "ZAR", "KES", "GHS", "USD"];
+const currencies = ["NGN", "ZAR", "KES", "RWF", "USD"];
 
 // 💱 Manual FX (update occasionally or automate later)
 const FX = {
   NGN: 0.0085,
   ZAR: 0.73,
-  KES: 0.10,
-  GHS: 1.1,
+  KES: 0.11,
+  RWF: 0.01,
   USD: 13.5
 };
 
