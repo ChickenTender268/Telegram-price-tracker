@@ -9,15 +9,15 @@ const LOWER = 13.7;
 const UPPER = 13.9;
 
 
-const currencies = ["NGN", "ZAR", "KES", "RWF", "USD"];
+const currencies = ["PLN", "PGK", "KES", "RWF", "MDL"];
 
 // 💱 Manual FX (update occasionally or automate later)
 const FX = {
-  NGN: 0.0085,
-  ZAR: 0.73,
+  PLN: 0.26,
+  PGK: 0.30,
   KES: 0.11,
   RWF: 0.01,
-  USD: 13.5
+  MDL: 1.23
 };
 
 // 🧠 Prevent spam
